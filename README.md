@@ -1,7 +1,7 @@
 imGallery
 =========
 
-lightbox like Javascript Image Gallery
+lightboxlike Javascript Image Gallery
 
 基本的な機能だけ。
 HTML内にid="smplimg"な空ブロックを用意して（空じゃなくてもいいよ）
