@@ -1,0 +1,95 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>sample</title>
+<style type="text/css">
+  html,
+  body {
+    height:100%;
+    margin: 0;
+    padding: 0;
+  }
+  #smplimg {
+    position: fixed;
+    _position: absolute;
+    top: 0;
+    left: 0;
+    background: rgb(0,0,0);
+    background: rgba(0,0,0,.6);
+    text-align: center;
+    width: 100%;
+    height: 100%;
+  }
+  #smplimg img {
+    display: block;
+    vertical-align: bottom;
+    padding: 30px 0;
+    margin: 0 auto;
+  }
+  #smplimg a {
+    color: #00B1EE;
+  }
+  #sampleimage {
+    opacity: 0;
+    filter: alpha(opacity=0);
+  }
+
+  #nxt,
+  #clo,
+  #prv {
+    position: absolute;
+    background: #444;
+    color: #bababa !important;
+    text-decoration: none;
+  }
+  #nxt {
+    display: block;
+    right: 0;
+    top: 35%;
+    margin-right:10px;
+    padding: 20px 15px;
+  }
+  #clo {
+    position: relative;
+    padding: 15px 25px;
+    margin: 0 auto;
+  }
+  #prv {
+    display: block;
+    left: 0;
+    top: 35%;
+    margin-left:10px;
+    padding: 20px 15px;
+  }
+</style>
+</head>
+
+<body>
+<div id="smplimg" style="display: none;"></div>
+<h1>gal.js サンプル</h1>
+
+<ul>
+  <li><a href="sample001.jpg" name="imgal" title="表紙"><img src="sample001s.jpg" width="100" height="136" alt="表紙" /><br />
+表紙</a></li>
+  <li><a href="sample002.jpg" name="imgal" title="もくじ"><img src="sample002s.jpg" width="100" height="136" alt="もくじ" /><br />
+もくじ</a></li>
+  <li><a href="sample003.jpg" name="imgal" title="P1"><img src="sample003s.jpg" width="100" height="136" alt="P1" /><br />
+P1</a></li>
+  <li><a href="sample004.jpg" name="imgal" title="P2"><img src="sample004s.jpg" width="100" height="136" alt="P2" /><br />
+P2</a></li>
+  <li><a href="sample005.jpg" name="imgal" title="P3"><img src="sample005s.jpg" width="100" height="136" alt="P3" /><br />
+P3<br />
+（表とグラフ）</a></li>
+  <li><a href="sample006.jpg" name="imgal" title="P4"><img src="sample006s.jpg" width="100" height="136" alt="P4" /><br />
+P4</a></li>
+  <li><a href="sample007.jpg" name="imgal" title="P5"><img src="sample007s.jpg" width="100" height="136" alt="P5" /><br />
+P5</a></li>
+  <li><a href="sample010.jpg" name="imgal" title="裏表紙"><img src="sample010s.jpg" width="100" height="136" alt="裏表紙" /><br />
+裏表紙</a></li>
+</ul>
+
+<script type="text/javascript" src='gal.js'></script>
+
+</body>
+</html>
